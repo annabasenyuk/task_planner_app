@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/task_planner_app/static/css/main.d0a5c2d4.css",
-    "main.js": "/task_planner_app/static/js/main.abaefc94.js",
+    "main.js": "/task_planner_app/static/js/main.80152815.js",
     "index.html": "/task_planner_app/index.html",
     "static/media/left-arrow-black.svg": "/task_planner_app/static/media/left-arrow-black.976137923918f2f7594d0a3e0efabe84.svg",
     "static/media/right-arrow-black.svg": "/task_planner_app/static/media/right-arrow-black.1681557de013e6041c2470380f71392b.svg",
     "main.d0a5c2d4.css.map": "/task_planner_app/static/css/main.d0a5c2d4.css.map",
-    "main.abaefc94.js.map": "/task_planner_app/static/js/main.abaefc94.js.map"
+    "main.80152815.js.map": "/task_planner_app/static/js/main.80152815.js.map"
   },
   "entrypoints": [
     "static/css/main.d0a5c2d4.css",
-    "static/js/main.abaefc94.js"
+    "static/js/main.80152815.js"
   ]
 }
