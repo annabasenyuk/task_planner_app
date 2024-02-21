@@ -1,6 +1,6 @@
 {
-  "homepage": "https://annabasenyuk.github.io/list_users_app",
-  "name": "list_users_app",
+  "homepage": "https://annabasenyuk.github.io/task_planner_app/",
+  "name": "task_planner_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

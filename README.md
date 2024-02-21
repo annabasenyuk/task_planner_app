@@ -1,5 +1,7 @@
 # task_planner_app
 
+[DEMO LINK](https://annabasenyuk.github.io/task_planner_app/)
+
 This application is a simple calendar and task tracker built using React. It allows users to view and manage tasks for specific dates.
 
 # Features
