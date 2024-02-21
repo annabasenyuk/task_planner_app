@@ -13,7 +13,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/list_users_app">
+    <BrowserRouter basename="/task_planner_app">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

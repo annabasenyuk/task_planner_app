@@ -24,7 +24,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build $GH_TOKEN",
-    "start": "react-scripts start --url=/list_users_app",
+    "start": "react-scripts start --url=/task_planner_app",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "format": "prettier . --ignore-path .gitignore --write",
