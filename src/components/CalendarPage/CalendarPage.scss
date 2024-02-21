@@ -1,0 +1,108 @@
+@import '../../styles/variables.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  border: 1px solid $white;
+  margin: 26px 20px;
+  background-color: $white;
+  box-shadow: 0px 3px 13px 0px $shadow;
+}
+
+.calendar {
+  padding: 10px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  &__header-title {
+    font-weight: 600;
+  }
+
+  &__header-icon {
+    display: flex;
+  }
+
+  &__month {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    margin-top: 10px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  &__month>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  &__table {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    gap: 3px;
+  }
+}
+
+.button {
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  border: inherit;
+  cursor: pointer;
+
+  &__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+
+.information {
+  margin-top: 30px;
+  padding: 10px 20px 10px 10px;
+}
+
+.font {
+  font-weight: 600;
+}
+
+.block {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-orange {
+  background-color: $background-color-orange;
+  border: 1px solid $border-color-orange;
+}
+
+.bg-green {
+  background-color: $background-color-green;
+  border: 1px solid $border-color-green;
+}
+
+.bg-white {
+  background-color: $white;
+  border: 1px solid $white;
+  box-shadow: 0px 3px 13px 0px $shadow;
+}

@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  color: $text-color-main;
+}
+
+h1,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
